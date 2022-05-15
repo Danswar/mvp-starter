@@ -1,8 +1,10 @@
 # mvp-starter
 A complete guide to implementing MVPs for the web
 
+
 ## Motivation
 Getting a web product up and running can be costly and time consuming if the entire infrastructure is built from scratch. In order for startups to test their ideas quickly there needs to be a reliable way to create products in a feasible time frame with the assurance that the developed product can be scaled without having to rebuild it all over again. This guide seeks to create constraints to make the initial decision process more manageable, saving time and creating a standard way to develop MVPs.
+
 
 ## Description of the scenerario for the use case
 "My amazing startup" is a company with an idea for a new product they want to develop for the web. As specialists in their field, they know very well what the product does, they have a clear idea of the business models and rules that govern the product, but unfortunately they don't have enough experience and time to develop this for the web.
@@ -21,3 +23,26 @@ Some of specific requirements for each of these topics are the following:
 | - Should contains at least: Home page, Contact us form and Pricing  page  <br>- Optimized for SEO  <br>- User activity tracking  <br>- Content editable through a CMS  | <br>- Authentication system for users  <br>- Storage for user related data  <br>- Scalable and secure  <br>- User activity tracking  <br>- Built with highly supported technologies  <br>- Testeable and CI/CD included  <br>- Email notifications system |
 
 In addition to the above, serverless infrastructures will be preferred, but without losing sight of flexibility. 
+
+
+## High-level architecture and actors
+<br />
+<p align="center">
+  <img src="/assets/high-level-arch.png" alt="high level architecture diagram" />
+</p>
+
+### Actors description
+  - Content creators: [TODO description].
+  - Desktop, Mobile, Search engine crawlers: [TODO description].
+  - Registered users: [TODO description].
+  - Devs: [TODO description].
+
+### Frontpage composition
+  - CMS: [TODO description].
+  - SSG: [TODO description].
+  - Web hosting: [TODO description].
+
+### Web application 
+  - User's database: [TODO description].
+  - Business app api: [TODO description].
+  - Single page app: [TODO description].
