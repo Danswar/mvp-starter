@@ -8,7 +8,7 @@ Both applications should include the following requirements:
 - Include pipelines for CI/CD and instructions on how to set them up.
 - Measure development time migrating third party templates to an ssg format
 
-## Others
-- Third party templates available under `./templates`
+## Changelog:
 
+- Included third party templates into the repository.
 
