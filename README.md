@@ -32,17 +32,17 @@ In addition to the above, serverless infrastructures will be preferred, but with
 </p>
 
 ### Actors description
-  - Content creators: [TODO description].
-  - Desktop, Mobile, Search engine crawlers: [TODO description].
-  - Registered users: [TODO description].
-  - Devs: [TODO description].
+  - <b>Content creators:</b> in charge of maintaining the frontpage content as well as any other content related to the product (e.g: articles in the case of an e-commerce). Usually people not related to code development..
+  - <b>Desktop, Mobile, Search engine crawlers:</b> End consumers for the page, they can use either desktop and mobile devices. In addition, the page must be accessible to the web crawlers for SEO purposes.
+  - <b>Registered users:</b> A user of the application that have access to the web application and store data in the server application.
+  - <b>Devs:</b> Not in the diagram but responsible for the development and maintainence the all pieces of architecture.
 
 ### Frontpage composition
-  - CMS: [TODO description].
-  - SSG: [TODO description].
-  - Web hosting: [TODO description].
+  - <b>CMS:</b> Stands for <i>Content Management System </i> and is an application that allows non-coders to create and maintain structure content through a graphical interface. Generally it store that content in a database an expouses that data through a web api, usually a REST or GraphQL api. (e.g: `Wordpress`, `strapi`, etc)
+  - <b>SSG:</b> Stands for <i>Static Site Generator</i> and is an application that takes as an input content data and source code base and outputs statics assets that compouses a web site (e.g: `nextjs` or `gabtsy` for JS enviroments).
+  - <b>Web hosting:</b> storage for web assets accesible through public internet.
 
 ### Web application 
-  - User's database: [TODO description].
-  - Business app api: [TODO description].
-  - Single page app: [TODO description].
+  - <b>User's database:</b> storage for user's related data as well as user interactions with the product (e.g: `Shopping cart` in a e-commerce).
+  - <b>Business app api:</b> It is where bussines rules for the lives. Represented as single block but could be a group of microservices as well. Custom for every particular product.
+  - <b>Single page app:</b> Frontend application that registered users use to interact with the product and its own data. Usually built as client render application using frameworks like `React` or `Angular`
