@@ -1,6 +1,12 @@
 # mvp-starter
 A complete guide to implementing MVPs for the web
 
+* [Motivation](#motivation)
+* [Description of the scenerario for the use case](#description-of-the-scenerario-for-the-use-case)
+* [High-level architecture and actors](#high-level-architecture-and-actors)
+  * [Actors description](#actors-description)
+  * [Frontpage composition](#frontpage-composition)
+  * [Web application](#web-application)
 
 ## Motivation
 Getting a web product up and running can be costly and time consuming if the entire infrastructure is built from scratch. In order for startups to test their ideas quickly there needs to be a reliable way to create products in a feasible time frame with the assurance that the developed product can be scaled without having to rebuild it all over again. This guide seeks to create constraints to make the initial decision process more manageable, saving time and creating a standard way to develop MVPs.
