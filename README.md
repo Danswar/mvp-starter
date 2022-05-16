@@ -44,7 +44,7 @@ In addition to the above, serverless infrastructures will be preferred, but with
   - <b>Devs:</b> Not in the diagram but responsible for the development and maintainence the all pieces of architecture.
 
 ### Frontpage composition
-  - <b>CMS:</b> Stands for <i>Content Management System </i> and is an application that allows non-coders to create and maintain structure content through a graphical interface. Generally it store that content in a database an expouses that data through a web api, usually a REST or GraphQL api. (e.g: `Wordpress`, `strapi`, etc)
+  - <b>CMS:</b> Stands for <i>Content Management System </i> and is an application that allows non-coders to create and maintain structured content through a graphical interface. Generally it store that content in a database an expouses that data through a web api, usually a REST or GraphQL api. (e.g: `Wordpress`, `strapi`, etc)
   - <b>SSG:</b> Stands for <i>Static Site Generator</i> and is an application that takes as an input content data and source code base and outputs statics assets that compouses a web site (e.g: `nextjs` or `gabtsy` for JS enviroments).
   - <b>Web hosting:</b> storage for web assets accesible through public internet.
 
