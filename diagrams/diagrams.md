@@ -1,0 +1,1 @@
+The files in these folders are intended for use in https://www.diagrams.net.
