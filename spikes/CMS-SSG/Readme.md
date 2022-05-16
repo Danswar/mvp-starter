@@ -1,4 +1,4 @@
-# CMS - SSR
+# CMS - SSG
 Exploring capabilities of integrate Strapi.js as CMS with Next.js as SSG.
 
 ## General requirements
