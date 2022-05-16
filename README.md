@@ -52,3 +52,21 @@ In addition to the above, serverless infrastructures will be preferred, but with
   - <b>User's database:</b> storage for user's related data as well as user interactions with the product (e.g: `Shopping cart` in a e-commerce).
   - <b>Business app api:</b> It is where bussines rules for the lives. Represented as single block but could be a group of microservices as well. Custom for every particular product.
   - <b>Single page app:</b> Frontend application that registered users use to interact with the product and its own data. Usually built as client render application using frameworks like `React` or `Angular`
+
+
+## Deliverable
+It is the property that it is going to be delivered and represents the product from an operational point of view. It consists of: 
+  - Source code of every application developed (e.g: `github` repository or similar).
+  - Documentation generated during the development.
+  - All settings on underlaying infrastructure and assetes created on third party software (e.g: `aws` accounts, `figma` mockups, or similars).
+
+## Implementation in an AWS environment.
+
+### CMS
+[TODO strapi justification]
+
+### SSG
+[TODO Nextjs justification]
+
+### Hosting
+[TBD]
