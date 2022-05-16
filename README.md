@@ -60,7 +60,7 @@ It is the property that it is going to be delivered and represents the product f
   - Documentation generated during the development.
   - All settings on underlaying infrastructure and assetes created on third party software (e.g: `aws` accounts, `figma` mockups, or similars).
 
-## Implementation in an AWS environment.
+## Implementation of Frontpage application in an AWS environment.
 
 ### CMS
 [TODO strapi justification]
@@ -70,3 +70,6 @@ It is the property that it is going to be delivered and represents the product f
 
 ### Hosting
 [TBD]
+
+### Spikes
+- [CMS<->SGG: Integration strapi.js with next.js using third party templates](./spikes/CMS-SSG)
