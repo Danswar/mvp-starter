@@ -4,43 +4,6 @@ const Header = () => {
   return (
     <header className="position-absolute w-100">
       <div className="container">
-        <div className="top-header d-none d-sm-flex justify-content-between align-items-center">
-          <div className="contact">
-            <a href="tel:+1234567890" className="tel">
-              <i className="fa fa-phone" aria-hidden="true"></i>+1234567890
-            </a>
-            <a href="mailto:info@yourmail.com">
-              <i className="fa fa-envelope" aria-hidden="true"></i>
-              info@yourmail.com
-            </a>
-          </div>
-          <nav className="d-flex aic">
-            <a href="#" className="login">
-              <i className="fa fa-user" aria-hidden="true"></i>Login
-            </a>
-            <ul className="nav social d-none d-md-flex">
-              <li>
-                <a
-                  href="https://www.facebook.com/fh5co"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <i className="fa fa-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-google-plus"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
         <nav className="navbar navbar-expand-md navbar-light">
           <a className="navbar-brand" href="index.html">
             <img src="assets/images/logo.png" alt="Multipurpose" />
