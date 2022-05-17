@@ -6,7 +6,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
         <title>Multipurpose</title>
 
@@ -30,10 +30,6 @@ const Home: NextPage = () => {
         <link rel="stylesheet" href="assets/css/responsive.css" />
       </Head>
 
-      <div className="css-loader">
-        <div className="loader-inner line-scale d-flex align-items-center justify-content-center"></div>
-      </div>
-
       <header className="position-absolute w-100">
         <div className="container">
           <div className="top-header d-none d-sm-flex justify-content-between align-items-center">
@@ -52,7 +48,11 @@ const Home: NextPage = () => {
               </a>
               <ul className="nav social d-none d-md-flex">
                 <li>
-                  <a href="https://www.facebook.com/fh5co" target="_blank">
+                  <a
+                    href="https://www.facebook.com/fh5co"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <i className="fa fa-facebook"></i>
                   </a>
                 </li>
@@ -409,9 +409,9 @@ const Home: NextPage = () => {
               <p>
                 There are many variations of passages of available but the
                 majority have suffered alteration in some form, by injected
-                humour, or randomised words which don't look even slightly
+                humour, or randomised words which donot look even slightly
                 believable. If you are going to use a passage of you need to be
-                sure there isn't anything embarrassing hidden in the middle of
+                sure there isnot anything embarrassing hidden in the middle of
                 text. All the generators on the Internet.
               </p>
               <div className="media-element d-flex justify-content-between">
@@ -787,7 +787,7 @@ const Home: NextPage = () => {
                         data-aos-duration="600"
                         data-aos-offset="0"
                       >
-                        Ash's tactics and books have helped me a lot in my
+                        Ashs tactics and books have helped me a lot in my
                         understanding on how social media advertising works.I
                         can say that he is one of the best development
                         professionals i have dealt with so far. His experience
@@ -833,7 +833,7 @@ const Home: NextPage = () => {
                         data-aos-duration="600"
                         data-aos-offset="0"
                       >
-                        Ash's tactics and books have helped me a lot in my
+                        Ashs tactics and books have helped me a lot in my
                         understanding on how social media advertising works.I
                         can say that he is one of the best development
                         professionals i have dealt with so far. His experience
@@ -879,7 +879,7 @@ const Home: NextPage = () => {
                         data-aos-duration="600"
                         data-aos-offset="0"
                       >
-                        Ash's tactics and books have helped me a lot in my
+                        Ashs tactics and books have helped me a lot in my
                         understanding on how social media advertising works.I
                         can say that he is one of the best development
                         professionals i have dealt with so far. His experience
@@ -1166,7 +1166,11 @@ const Home: NextPage = () => {
                   <p>We respect your privacy</p>
                   <ul className="nav social-nav">
                     <li>
-                      <a href="https://www.facebook.com/fh5co" target="_blank">
+                      <a
+                        href="https://www.facebook.com/fh5co"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <i className="fa fa-facebook"></i>
                       </a>
                     </li>
@@ -1205,6 +1209,7 @@ const Home: NextPage = () => {
                 <a
                   href="https://freehtml5.co/multipurpose"
                   target="_blank"
+                  rel="noreferrer"
                   className="fh5-Link"
                 >
                   FreeHTML5.co
@@ -1220,15 +1225,12 @@ const Home: NextPage = () => {
         </div>
       </footer>
 
-      <script src="assets/js/jquery-3.3.1.js"></script>
-
-      <script src="assets/js/bootstrap.bundle.js"></script>
-      <script src="assets/js/loaders.css.js"></script>
-      <script src="assets/js/aos.js"></script>
-      <script src="assets/js/swiper.min.js"></script>
-      <script src="assets/js/lightgallery-all.min.js"></script>
-
-      <script src="assets/js/main.js"></script>
+      <script defer src="assets/js/jquery-3.3.1.js"></script>
+      <script defer src="assets/js/bootstrap.bundle.js"></script>
+      <script defer src="assets/js/aos.js"></script>
+      <script defer src="assets/js/swiper.min.js"></script>
+      <script defer src="assets/js/lightgallery-all.min.js"></script>
+      <script defer src="assets/js/main.js" />
     </div>
   );
 };
