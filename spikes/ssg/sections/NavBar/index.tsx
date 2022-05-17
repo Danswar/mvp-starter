@@ -1,6 +1,32 @@
 import React from "react";
 
-const Header = () => {
+export type LinkProps = {
+  label: string;
+  href: string;
+};
+
+const Link = ({ label, href }: LinkProps) => (
+  <li className="nav-item">
+    <a className="nav-Link" href={href}>
+      {label}
+    </a>
+  </li>
+);
+
+const mockedLinksResource: LinkProps[] = [
+  { label: "Home", href: "#" },
+  { label: " About Us", href: "#" },
+  { label: "Services", href: "#" },
+  { label: "Portfolio", href: "#" },
+  { label: "Shop", href: "#" },
+  { label: " Contact Us", href: "#" }
+];
+
+const getNavBarLinks = () => mockedLinksResource;
+
+const NavBar = () => {
+  const navBarLinks = getNavBarLinks().map((props) => <Link {...props} />);
+
   return (
     <header className="position-absolute w-100">
       <div className="container">
@@ -9,80 +35,15 @@ const Header = () => {
             <img src="assets/images/logo.png" alt="Multipurpose" />
           </a>
           <div className="group d-flex align-items-center">
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
             <a className="login-icon d-sm-none" href="#">
               <i className="fa fa-user"></i>
             </a>
           </div>
-          <a className="search-icon d-none d-md-block" href="#">
-            <i className="fa fa-search"></i>
-          </a>
           <div
             className="collapse navbar-collapse justify-content-end"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a className="nav-Link" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-Link" href="#">
-                  About Us
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-Link" href="#">
-                  Services
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-Link" href="#">
-                  Portfolio
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-Link" href="#">
-                  Shop
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-Link" href="#">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-            <form className="bg-white search-form" method="get" id="searchform">
-              <div className="input-group">
-                <input
-                  className="field form-control"
-                  id="s"
-                  name="s"
-                  type="text"
-                  placeholder="Search"
-                />
-                <span className="input-group-btn">
-                  <input
-                    className="submit btn btn-primary"
-                    id="searchsubmit"
-                    name="submit"
-                    type="submit"
-                    value="Search"
-                  />
-                </span>
-              </div>
-            </form>
+            <ul className="navbar-nav">{navBarLinks}</ul>
           </div>
         </nav>
       </div>
@@ -90,4 +51,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NavBar;
