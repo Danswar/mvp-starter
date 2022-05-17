@@ -34,7 +34,9 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 - Run `next build && next export` for cleaning errors on build time.
 - Repeat for any other route on the template. 
 
-At this point the website should fully work at the browser using the development server or from the exported assets. For this propose, the package [serve](https://www.npmjs.com/package/serve) is recommended.
+At this point the website should fully work at the browser using the development server or from the exported assets. For this propose, the package [serve](https://www.npmjs.com/package/serve) is recommended. Next to that, further optimizations would be:
+
+- Break down the big block of JSX into a separate components that represents sections
 
 ## References
 
