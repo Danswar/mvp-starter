@@ -1,3 +1,7 @@
+# SSG: Adapting third party templates to Next.js
+
+The main goal of this spike is to create a guide line of how to migrate already built third party templates to a Next.js application.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -22,11 +26,13 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 - Copy all the assets into the folder `./public`.
 - Delete the unnecessary assets from the public folder.
-- Copy all html markup from `index.html` of the third party template into the component `./pages/index.tsx`.
-- Replace the `<head>` tag for `<Head>` the component exposed by `next.js`
+- Turn all html markup from `index.html` the template into a `JSX`format. Use a tools like [html-to-jsx](https://transform.tools/html-to-jsx) or similars.
+- Place the `JSX` into `pages/index.tsx` 
+- Replace the `<head>` tags for `<Head>` the component exposed by `next.js`
 - Third party scripts at the bottom of the html should have the attribute `defer`.
 - Use the browser console for cleaning up errors.
 - Run `next build && next export` for cleaning errors on build time.
+- Repeat for any other route on the template. 
 
 At this point the website should fully work at the browser using the development server or from the exported assets. For this propose, the package [serve](https://www.npmjs.com/package/serve) is recommended.
 

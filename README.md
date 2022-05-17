@@ -63,6 +63,7 @@ It is the property that it is going to be delivered and represents the product f
 ## Implementation of Frontpage application in an AWS environment.
 
 ### Spikes
+- [SSG: Adapting third party templates to Next.js.](./spikes/ssg)
 - [CMS<->SGG: Integration strapi.js with next.js using third party templates.](./spikes/CMS-SSG)
 
 ### CMS
